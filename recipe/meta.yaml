@@ -1,5 +1,5 @@
 {% set name = "wagtailmenus" %}
-{% set version = "3.1.9" %}
+{% set version = "4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtailmenus-{{ version }}.tar.gz
-  sha256: ce484d06cf901402238ad337fc09ba8842ceff3baa08b4cafaddbb158878cda3
+  sha256: d233dba4f67a72a19b61bfa0a494949e52622be124d8b537287d5d64021c57f2
 
 build:
   noarch: python
