@@ -1,5 +1,5 @@
 {% set name = "wagtailmenus" %}
-{% set version = "4.0.1" %}
+{% set version = "4.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jazzband/wagtailmenus/archive/v{{ version }}.tar.gz
-  sha256: 33cdeb418fee672538b5848b312aeaea0877aa4f1bfe19780996d45f7f5da7fb
+  sha256: 1854e30c708cf494cf14182c1d4dfe07756548146dbaca36dc386e69c2c2eabe
 
 build:
   noarch: python
